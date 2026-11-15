@@ -8,3 +8,13 @@ class InvalidDatasetError(DatasetError):
 
 class MissingFileError(DatasetError):
     """Raised when dataset file is missing."""
+
+try:
+    class DatasetError
+except valueError as error:
+    print("VALUE ERROR")
+else:
+    print("dataset fetched succesfully")
+finally:
+    print("NO ERRORS")
+    
