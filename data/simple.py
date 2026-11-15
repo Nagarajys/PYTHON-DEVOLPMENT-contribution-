@@ -1,0 +1,9 @@
+name,age,score,department
+Raj,19,90,AIML
+Rahul,20,85,CSE
+Priya,19,95,AIML
+Kiran,21,78,CSE
+Sneha,20,88,ECE
+Raj,19,90,AIML
+Arun,22,,ECE
+Meena,19,92,AIML
