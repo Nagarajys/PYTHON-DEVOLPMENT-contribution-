@@ -9,12 +9,13 @@ class InvalidDatasetError(DatasetError):
 class MissingFileError(DatasetError):
     """Raised when dataset file is missing."""
 
+
 try:
-    class DatasetError
-except valueError as error:
-    print("VALUE ERROR")
+
+    data = DatasetError()
+except ValueError as error:
+    print("value error")
 else:
-    print("dataset fetched succesfully")
+    print("dataset fetched successfully")
 finally:
-    print("NO ERRORS")
-    
+    print("no errors")
