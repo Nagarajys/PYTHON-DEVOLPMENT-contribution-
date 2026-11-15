@@ -12,9 +12,9 @@ class MissingFileError(DatasetError):
 try:
     class DatasetError
 except valueError as error:
-    print("VALUE ERROR")
+    print("value errors")
 else:
     print("dataset fetched succesfully")
 finally:
-    print("NO ERRORS")
+    print("no errors")
     
